@@ -14,6 +14,7 @@
 		66EF7601277ECAF600135304 /* AsyncAwaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF7600277ECAF600135304 /* AsyncAwaitTests.swift */; };
 		66EF760B277ECAF600135304 /* AsyncAwaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF760A277ECAF600135304 /* AsyncAwaitUITests.swift */; };
 		66EF760D277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF760C277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift */; };
+		66EF761A277ECCF100135304 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF7619277ECCF100135304 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		66EF7606277ECAF600135304 /* AsyncAwaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EF760A277ECAF600135304 /* AsyncAwaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitUITests.swift; sourceTree = "<group>"; };
 		66EF760C277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66EF7619277ECCF100135304 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				66EF75F1277ECAF500135304 /* ContentView.swift */,
 				66EF75F3277ECAF600135304 /* Assets.xcassets */,
 				66EF75F5277ECAF600135304 /* Preview Content */,
+				66EF7619277ECCF100135304 /* ContentViewModel.swift */,
 			);
 			path = AsyncAwait;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				66EF75F2277ECAF500135304 /* ContentView.swift in Sources */,
 				66EF75F0277ECAF500135304 /* AsyncAwaitApp.swift in Sources */,
+				66EF761A277ECCF100135304 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
