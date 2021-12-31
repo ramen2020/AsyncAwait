@@ -15,6 +15,7 @@
 		66EF760B277ECAF600135304 /* AsyncAwaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF760A277ECAF600135304 /* AsyncAwaitUITests.swift */; };
 		66EF760D277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF760C277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift */; };
 		66EF761A277ECCF100135304 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF7619277ECCF100135304 /* ContentViewModel.swift */; };
+		66EF761C277ED48B00135304 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 66EF761B277ED48B00135304 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		66EF760A277ECAF600135304 /* AsyncAwaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitUITests.swift; sourceTree = "<group>"; };
 		66EF760C277ECAF600135304 /* AsyncAwaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66EF7619277ECCF100135304 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		66EF761B277ED48B00135304 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		66EF75E3277ECAF500135304 = {
 			isa = PBXGroup;
 			children = (
+				66EF761B277ED48B00135304 /* README.md */,
 				66EF75EE277ECAF500135304 /* AsyncAwait */,
 				66EF75FF277ECAF600135304 /* AsyncAwaitTests */,
 				66EF7609277ECAF600135304 /* AsyncAwaitUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66EF761C277ED48B00135304 /* README.md in Resources */,
 				66EF75F7277ECAF600135304 /* Preview Assets.xcassets in Resources */,
 				66EF75F4277ECAF600135304 /* Assets.xcassets in Resources */,
 			);
