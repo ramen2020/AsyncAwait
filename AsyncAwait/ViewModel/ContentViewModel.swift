@@ -21,7 +21,8 @@ class ContentViewModel: ObservableObject {
     init() {
         fetchGithubData
             .receive(on: DispatchQueue.main)
-            .sink { _ in
+            .sink { [weak self] in
+                guard let self = self else {return}
                 async {
                     do {
                         self.items = try await GithubRepository
