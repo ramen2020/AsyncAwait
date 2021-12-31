@@ -97,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				66EF75EF277ECAF500135304 /* AsyncAwaitApp.swift */,
+				66EF7619277ECCF100135304 /* ContentViewModel.swift */,
 				66EF75F1277ECAF500135304 /* ContentView.swift */,
 				66EF75F3277ECAF600135304 /* Assets.xcassets */,
 				66EF75F5277ECAF600135304 /* Preview Content */,
-				66EF7619277ECCF100135304 /* ContentViewModel.swift */,
 			);
 			path = AsyncAwait;
 			sourceTree = "<group>";
