@@ -20,18 +20,16 @@ class ContentViewModel: ObservableObject {
     
     init() {
         fetchGithubData
-            .receive(on: DispatchQueue.main)
             .sink { [weak self] in
                 guard let self = self else {return}
-                async {
-                    do {
-                        self.items = try await GithubRepository
-                            .fetchGithub(
-                                url: APIURLConst.githubRepo()
-                            )
-                            .items
-                    } catch let error {
-                        print("::: error: ", error)
+                Task {
+                    let getItems = try await GithubRepository
+                        .fetchGithub(
+                            url: APIURLConst.githubRepo()
+                        )
+                        .items
+                    DispatchQueue.main.async {
+                        self.items = getItems
                     }
                 }
             }.store(in: &cancellables)
